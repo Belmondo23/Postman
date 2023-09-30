@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "53b62712-7a79-42a9-a4e8-3950c0caa388",
+		"name": "VK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29018812",
+		"_collection_link": "https://planetary-equinox-955070.postman.co/workspace/83f856c9-33fd-48c4-be26-d652248adccd/collection/29018812-53b62712-7a79-42a9-a4e8-3950c0caa388?action=share&creator=29018812&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Сreate album",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "photos.getUploadServe",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "https://pu.vk.com/c532536/ss2233/upload.php?act=do_add&mid=246440383&aid=298099684&gid=0&hash=b1a820d5f25e42aad045a3c5d1bb2a90&rhash=d67253a64386209e743c6726a689b7b0&swfupload=1&api=1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/C:/Users/rus_3/Desktop/2458.970.jpg"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/C:/Users/rus_3/Desktop/081923-ufc-292-omalley-vs-sterling-event-art.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://pu.vk.com/c532536/ss2233/upload.php?act=do_add&mid=246440383&aid=298099684&gid=0&hash=b1a820d5f25e42aad045a3c5d1bb2a90&rhash=d67253a64386209e743c6726a689b7b0&swfupload=1&api=1",
+					"protocol": "https",
+					"host": [
+						"pu",
+						"vk",
+						"com"
+					],
+					"path": [
+						"c532536",
+						"ss2233",
+						"upload.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "do_add"
+						},
+						{
+							"key": "mid",
+							"value": "246440383"
+						},
+						{
+							"key": "aid",
+							"value": "298099684"
+						},
+						{
+							"key": "gid",
+							"value": "0"
+						},
+						{
+							"key": "hash",
+							"value": "b1a820d5f25e42aad045a3c5d1bb2a90"
+						},
+						{
+							"key": "rhash",
+							"value": "d67253a64386209e743c6726a689b7b0"
+						},
+						{
+							"key": "swfupload",
+							"value": "1"
+						},
+						{
+							"key": "api",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "photos.save",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "photos.get",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "photos.createComment",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "photos.editComment",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "photos.getAllComments",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "photos.delete",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "photos.deleteAlbum",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "acces_token",
+			"value": "vk1.a.97-jyMvST-CJmV1-Yon6BXs7NeUM1SG9mdbB4B9UmW4SbcnIV72s-xwBzg0YTf6MYI9awXjIM6a7fJ8lvCeFDSMsij5zstwSsQjf53HQKbXThSf15q4ygb8xdFL_egEL8TZeU4Mvpds0A5w3talUs0XMJRySrKOxZRXgz5_yFpeE0bvaBNjJuHALeokZ0iOuBJynYCXqRf7RYpQ9iwuEIg"
+		}
+	]
+}
